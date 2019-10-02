@@ -12,7 +12,7 @@ import UIKit
 /// Custom text field that formats phone numbers
 open class PhoneNumberTextField: UITextField, UITextFieldDelegate {
 
-    public open var phoneNumberKit = PhoneNumberKit()
+    open var phoneNumberKit = PhoneNumberKit()
 
     /// Override setText so number will be automatically formatted when setting text by code
     override open var text: String? {
